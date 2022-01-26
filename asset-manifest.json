@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Best-Players-App/static/css/main.9a52ddb3.css",
+    "main.js": "/Best-Players-App/static/js/main.04d9c03a.js",
+    "static/js/787.c81edc29.chunk.js": "/Best-Players-App/static/js/787.c81edc29.chunk.js",
+    "static/media/stadium4_.jpg": "/Best-Players-App/static/media/stadium4_.23545e01ffd4257f4543.jpg",
+    "static/media/ball.jpg": "/Best-Players-App/static/media/ball.411cf84d4b5350f5edbd.jpg",
+    "index.html": "/Best-Players-App/index.html",
+    "main.9a52ddb3.css.map": "/Best-Players-App/static/css/main.9a52ddb3.css.map",
+    "main.04d9c03a.js.map": "/Best-Players-App/static/js/main.04d9c03a.js.map",
+    "787.c81edc29.chunk.js.map": "/Best-Players-App/static/js/787.c81edc29.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a52ddb3.css",
+    "static/js/main.04d9c03a.js"
+  ]
+}

@@ -7,11 +7,11 @@
     justify-content:space-between;
     /* background:linear-gradient(180deg, rgba(0, 0, 0, 0.98) 1.48%, rgba(93, 219, 68, 0.68) 12.52%, rgb(1, 87, 30) 89.52%), url('../../public/images/backgrounds/peleBackground.jpg'); */
     /* background:linear-gradient(180deg, rgba(0, 0, 0, 0.98) 1.48%, rgba(187, 219, 180, 0.68) 12.52%, rgb(92, 97, 93) 89.52%),url('../../public/images/backgrounds/peleBackground.jpg'); */
-    width:80%;
+    width:78%;
     padding:10px;
     min-width:450px;
-    height:78vh;
-    margin:20px auto 30px auto;
+    height:74vh;
+    margin:20px auto 50px auto;
     border-radius:20px;
     /* overflow-y: scroll; */
 }
@@ -66,7 +66,7 @@
 .stats-header{
     color:black;
     font-weight:bold;
-    font-size:4vw;
+    font-size:2.5rem;
     min-width:50px;
     font-style: oblique;
 }

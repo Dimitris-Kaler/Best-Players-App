@@ -2,24 +2,19 @@ import React,{Component} from 'react';
 
 
 class PersonalInfo extends Component{
-    constructor(props){
-        super(props)
-    }
+    // constructor(props){
+    //     super(props)
+    // }
     renderPersonalInfo=()=>{
     
         const personalInformation=this.props.personal
 
-       
-        console.log(personalInformation)
         return(
 
-         
-           
-            
-        personalInformation.map(info=>{
+        personalInformation.map((info,i)=>{
           const {fullName,nationality,dateOfBirth,dateOfDeath,height,positions}=info
             return(
-            <React.Fragment>
+            <React.Fragment key={i}>
              <p>Full Name:<span>{fullName}</span></p>
              <p>Nationality:<span>{nationality}</span></p>
              <p>Date of Birth:<span>{dateOfBirth}</span></p>

@@ -11,7 +11,7 @@ import Footer from '../components/Footer'
     const App=()=>{
     
     return(
-    <div className="App">
+    <div className="App-div">
       <BrowserRouter>   
         <Routes>
           <Route exact path="/" element={<Home/>}/>

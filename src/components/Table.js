@@ -3,9 +3,9 @@ import React,{Component} from 'react'
 
 
 class Table extends Component{
-    constructor(props){
-        super(props)
-    }
+    // constructor(props){
+    //     super(props)
+    // }
 
  
 
@@ -19,10 +19,10 @@ class Table extends Component{
         
         
        return (
-         playerStats.map(stat=>{
+         playerStats.map((stat,i)=>{
            const {years,team,apps,goals}=stat
            return(
-            <React.Fragment key={"played "+years}>
+            <React.Fragment key={i}>
            <tr>
                <td >{years}</td>
                <td >{team}</td>
@@ -42,10 +42,10 @@ class Table extends Component{
             const NationalStats=this.props.nationalStat
             
             return(
-                NationalStats.map(stat=>{
+                NationalStats.map((stat,j)=>{
                     const{years,team,apps,goals}=stat
                     return( 
-                    <React.Fragment key={"national played "+years}>
+                    <React.Fragment key={j}>
                         <tr>
                             <td>{years}</td>
                             <td>{team}</td>

@@ -36,7 +36,7 @@ const Stats=()=>{
     
       <div id="stat-card" style={backgroundStyle}> 
           <div className="img-personal">
-            <img className="playerImg"src={`../images/${img}.jpg?200x200`}/>
+            <img className="playerImg" alt={name}src={`../images/${img}.jpg?200x200`}/>
             <PersonalInfo personal={personalInfo}/>
           </div>
             <Table stat={stats} nationalStat={nationalStats}/>

@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter, Route,Routes } from 'react-router-dom'
 import './index.css';
 import App from './containers/App';
 import reportWebVitals from './reportWebVitals';
 // import Footer from './components/Footer'
 
 ReactDOM.render(
+ <BrowserRouter>
     <App />
+</BrowserRouter>
  ,
   document.getElementById('root')
 );

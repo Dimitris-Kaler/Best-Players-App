@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter } from 'react-router-dom'
+import { HashRouter } from 'react-router-dom'
 import './index.css';
 import App from './containers/App';
 import reportWebVitals from './reportWebVitals';
 // import Footer from './components/Footer'
 
 ReactDOM.render(
- <BrowserRouter basename='/'>
+ <HashRouter basename='/'>
     <App />
-</BrowserRouter>
+</HashRouter>
  ,
   document.getElementById('root')
 );

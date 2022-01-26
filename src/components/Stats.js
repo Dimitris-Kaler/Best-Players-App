@@ -1,4 +1,4 @@
-import React,{Component} from 'react'
+import React from 'react'
 import { useParams } from 'react-router-dom'
 import {FootballPlayers} from '../FootballPlayers.js'
 import PersonalInfo from'./PersonalInfo'
@@ -19,7 +19,7 @@ import './Stats.css'
 const Stats=()=>{
     const {id}=useParams()
   
-    const {name,years,img,stats,nationalStats,personalInfo,background}=FootballPlayers[id-1]
+    const {name,img,stats,nationalStats,personalInfo,background}=FootballPlayers[id-1]
     console.log(background)
   const backgroundStyle={
     background:`linear-gradient(180deg, rgba(0, 0, 0, 0.98) 1.48%, rgba(93, 219, 68, 0.68) 12.52%, rgb(1, 87, 30) 89.52%), url(${process.env.PUBLIC_URL}/images/backgrounds/${background}.jpg)`,

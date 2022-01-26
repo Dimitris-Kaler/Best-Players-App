@@ -36,7 +36,8 @@ const Stats=()=>{
     
       <div id="stat-card" style={backgroundStyle}> 
           <div className="img-personal">
-            <img className="playerImg" alt={name}src={`../images/${img}.jpg?200x200`}/>
+            {/* <img className="playerImg" alt={name}src={`../public/images/${img}.jpg`}/> */}
+            <img className="playerImg" alt={name}src={`${process.env.PUBLIC_URL}/images/${img}.jpg`}/>
             <PersonalInfo personal={personalInfo}/>
           </div>
             <Table stat={stats} nationalStat={nationalStats}/>

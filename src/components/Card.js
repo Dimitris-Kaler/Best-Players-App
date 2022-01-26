@@ -14,7 +14,7 @@ const Card=(props)=>{
     
     return (
     <div className="card">
-        <img className="playerImg"alt={name} src={`../images/${img}.jpg`}/>
+        <img className="playerImg"alt={name} src={`${process.env.PUBLIC_URL}/images/${img}.jpg`}/>
       <div>
        <Link 
         to={{

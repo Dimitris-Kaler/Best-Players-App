@@ -1,0 +1,62 @@
+
+.list{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+
+.card{
+    color:white;
+    padding:10px;
+    border-radius:20px;
+    margin:1rem;
+    width:25%;
+    min-width:200px;
+    background:linear-gradient(180deg, rgba(0, 0, 0, 0.98) 1.48%, rgba(93, 219, 68, 0.68) 12.52%, rgb(1, 87, 30) 89.52%), url('../../public/images/ball.jpg');
+    transition:all 1s;
+    cursor:pointer;
+    
+}
+.underline-effect{
+  display: inline-block;
+  padding-bottom: 0.25rem; /* defines the space between text and underline */
+  position: relative;
+}
+.underline-effect::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.25s ease-out;
+  }
+  .underline-effect:hover::before {
+    width: 100%;
+  }
+a{
+    text-decoration:none;
+    color:white;
+}
+.card:hover{
+    transform:scale(1.1);
+    box-shadow:3px 6px rgb(51, 46, 46);
+}
+.card:hover a{
+    text-shadow:2px 4px rgb(95, 95, 95);
+}
+.playerImg{
+    margin-top:0.5rem;
+    /* padding:3px; */
+    width:100%;
+    height:55%;
+    /* border:10px solid black; */
+}
+h2{
+    font-size:2.1vw
+}
+p{
+    font-size:1rem;
+    font-weight:bold;
+}

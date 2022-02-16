@@ -1,17 +1,19 @@
 
-.list{
+/* .list{
     display:flex;
     flex-direction:row;
     flex-wrap: wrap;
-}
+    min-height:100%;
+} */
 
 .card{
     color:white;
     padding:10px;
     border-radius:20px;
     margin:1rem;
-    width:25%;
+    width:20%;
     min-width:200px;
+    max-height:250px;
     background:linear-gradient(180deg, rgba(0, 0, 0, 0.98) 1.48%, rgba(93, 219, 68, 0.68) 12.52%, rgb(1, 87, 30) 89.52%), url('../../public/images/ball.jpg');
     transition:all 1s;
     cursor:pointer;
@@ -54,9 +56,20 @@ a{
     /* border:10px solid black; */
 }
 h2{
-    font-size:2.1vw
+    font-size:1.5rem
 }
 p{
     font-size:1rem;
     font-weight:bold;
+}
+
+
+@media only screen and(max-width:768px) {
+    .card{
+      min-width:180px;
+      min-height:172.8px  
+
+
+    }
+    
 }

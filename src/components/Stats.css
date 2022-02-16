@@ -10,10 +10,10 @@
     width:78%;
     padding:10px;
     min-width:450px;
-    height:74vh;
+    min-height:74vh;
     margin:20px auto 50px auto;
     border-radius:20px;
-    /* overflow-y: scroll; */
+    overflow-y: scroll;
 }
 #stat-card>div{
     width:50%;

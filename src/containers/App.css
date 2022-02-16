@@ -8,20 +8,22 @@
   overflow-y:scroll;
   border:1px solid black;
   height:500px;
+  padding-bottom:20px;
 
 }
 
 .list{
   display:flex;
   min-height: 100%;
-  /* flex-direction:row; */
+  flex-direction:row;
   justify-content:center;
-  flex-wrap:wrap;  
+  flex-wrap:wrap; 
+  padding-bottom:30px; 
 }
 h1{ 
   color:linear-gradient(180deg, rgba(0, 0, 0, 0.98) 1.48%, rgba(93, 219, 68, 0.68) 12.52%, rgb(1, 87, 30) 89.52%);
   font-size:3rem;
-  min-width:50px;
+  /* min-width:50px; */
   font-style: oblique;
   text-shadow: 0 8px 24px rgba(46, 202, 101, 0.9)
 }
@@ -80,4 +82,15 @@ h1{
 #footer p{
   font-weight:bold;
   font-size:1.5rem;
+}
+
+
+@media only screen and (max-width: 768px) {
+ 
+  .card{
+    min-width:180px;
+    min-height:172.8px  
+
+
+  }
 }
